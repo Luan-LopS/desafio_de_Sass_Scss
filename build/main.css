@@ -46,7 +46,8 @@ header .menu li a {
 section {
   padding: 56px 0;
 }
-section .products {
+
+.products {
   display: grid;
   grid-template-columns: repeat(3, 32.66%);
   column-gap: 1%;
@@ -54,11 +55,11 @@ section .products {
   width: 100%;
   margin-top: 40px;
 }
-section .products .product-item img {
+.products .product-item img {
   width: 100%;
   border-radius: 16px;
 }
-section .products .product-button {
+.products .product-button {
   display: block;
   background-color: #44bd32;
   color: #fff;
@@ -68,7 +69,7 @@ section .products .product-button {
   margin-top: 8px;
   text-decoration: none;
 }
-section .products .product-button:hover {
+.products .product-button:hover {
   background-color: #74d665;
 }
 

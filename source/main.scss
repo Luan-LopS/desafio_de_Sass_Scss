@@ -49,40 +49,38 @@ header{
 
 section{
     padding: 56px 0;
+}
 
-    .products{
-        display: grid;
-        grid-template-columns: repeat(3, 32.66%);
-        column-gap: 1%;
-        row-gap: 4%;
-        width: 100%;
-        margin-top: 40px;
+.products{
+    display: grid;
+    grid-template-columns: repeat(3, 32.66%);
+    column-gap: 1%;
+    row-gap: 4%;
+    width: 100%;
+    margin-top: 40px;
 
-
-        .product-item{
-            img{
-                width: 100%;
-                border-radius: 16px;
-            }
+    .product-item{
+        img{
+            width: 100%;
+            border-radius: 16px;
         }
+    }
 
-        .product-button{
-            display: block;
-            background-color: variaveis.$corButton;
-            color: variaveis.$corTexto;
-            text-align: center;
-            padding: 8px 0;
-            border-radius: 8px;
-            margin-top: 8px;
-            text-decoration: none;
+    .product-button{
+        display: block;
+        background-color: variaveis.$corButton;
+        color: variaveis.$corTexto;
+        text-align: center;
+        padding: 8px 0;
+        border-radius: 8px;
+        margin-top: 8px;
+        text-decoration: none;
 
-            &:hover{
-                background-color: lighten(variaveis.$corButton, 15%);
-            }
+        &:hover{
+            background-color: lighten(variaveis.$corButton, 15%);
         }
     }
 }
-
 
 
 @media screen and (max-width: variaveis.$tablet){
